@@ -40,4 +40,6 @@
       include templates/cors.conf;
       include templates/embedding.conf;
     }
+
+    include /etc/nginx/conf.d/proxy/*.conf;
   }
